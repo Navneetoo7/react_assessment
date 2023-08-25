@@ -1,0 +1,44 @@
+.calendarConatiner{
+    border: 1px solid #964b0085;
+    padding: 10px;
+    display: inline-block;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: bisque;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  /* padding: 10px; */
+}
+.dayWeek{
+    justify-content: space-between;
+    padding: 2px 0;
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+  }
+    
+
+ .days-of-week {
+  display: flex;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+  /* Calendar Cell */
+.calendar-cell {
+  padding: 5px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color: #964b0050;
+}
+
+/* Highlighted Cell */
+.highlight {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+.calendaRow{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
